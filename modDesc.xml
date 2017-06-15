@@ -4,11 +4,15 @@
     <version>1.0.0.0</version>
     <title>
         <en>UltimaFix for Seasons</en>
+        <pl>UltimaFix dla Seasons</pl>        
     </title>
     <description>
         <en>
             <![CDATA[Patches the Krone Ultima from BM-modding to take advantage of all Seasons bale wrapping features.]]>
         </en>
+        <pl>
+            <![CDATA[Poprawia Krone Ultima od BM-modding, aby móc w pełni korzystać z funkcjonalności zafoliowanych bel w Seasons.]]>
+        </pl>
     </description>
     <iconFilename>icon.dds</iconFilename>
     <multiplayer supported="true"/>
