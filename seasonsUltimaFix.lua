@@ -1,10 +1,11 @@
+----------------------------------------------------------------------------------------------------
+-- ULTIMA PATCH SCRIPT
+----------------------------------------------------------------------------------------------------
+-- Purpose:  Fix Krone Ultima from BM-modding to use Seasons bale wrapping features.
+-- Authors:  baron
 --
--- Patches the Krone Ultima from BM-modding to take advantage of 
--- all Seasons bale wrapping features.
---
--- Features introduced by Seasons mod inclues fermentation time for wrapped grass bales
--- as well as weather protection for wrapped hay bales (they never ferement into silage)
---
+-- Copyright (c) Realismus Modding, 2017
+----------------------------------------------------------------------------------------------------
 
 Mission00.loadMission00Finished = Utils.appendedFunction(Mission00.loadMission00Finished, function (...)
 local ultimaModNames, seasonsModNames = {"FS17_KroneUltimaCF155XC"}, {"FS17Contest_Seasons", "FS17_Seasons", "FS17_seasons", "FS17_RM_Seasons"}
