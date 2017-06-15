@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<modDesc descVersion="37">
+    <author>baron</author>
+    <version>1.0.0.0</version>
+    <title>
+        <en>UltimaFix for Seasons</en>
+    </title>
+    <description>
+        <en>
+            <![CDATA[Patches the Krone Ultima from BM-modding to take advantage of all Seasons bale wrapping features.]]>
+        </en>
+    </description>
+    <iconFilename>icon.dds</iconFilename>
+    <multiplayer supported="true"/>
+
+    <extraSourceFiles>
+        <sourceFile filename="seasonsUltimaFix.lua" />
+    </extraSourceFiles>
+</modDesc>
