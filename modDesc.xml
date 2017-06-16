@@ -5,6 +5,7 @@
     <title>
         <en>UltimaFix for Seasons</en>
         <pl>UltimaFix dla Seasons</pl>        
+        <it>UltimaFix per Seasons</it>
     </title>
     <description>
         <en>
@@ -13,6 +14,9 @@
         <pl>
             <![CDATA[Poprawia Krone Ultima od BM-modding, aby móc w pełni korzystać z funkcjonalności zafoliowanych bel w Seasons.]]>
         </pl>
+        <it>
+            <![CDATA[Patch per Krone Ultima di BM-modding per sfruttare tutte le funzionalità di avvolgimento balle di Seasons.]]>
+        </it>
     </description>
     <iconFilename>icon.dds</iconFilename>
     <multiplayer supported="true"/>
