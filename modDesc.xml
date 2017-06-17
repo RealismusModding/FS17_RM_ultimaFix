@@ -7,6 +7,7 @@
         <pl>UltimaFix dla Seasons</pl>        
         <it>UltimaFix per Seasons</it>
         <ru>UltimaFix для Seasons</ru>
+        <hu>UltimaFix Seasons modhoz</hu>		
     </title>
     <description>
         <en>
@@ -21,6 +22,9 @@
         <ru>
             <![CDATA[Патч для Krone Ultima от BM-modding, чтобы иметь возможность пользоваться всеми функциями для упакованых тюков в Seasons.]]>
         </ru>
+        <hu>
+            <![CDATA[A BM-modding Krone Ultima bálázójához készült javítás, hogy a Seasons bálacsomagolási funkcióit továbbra is használhasd.]]>
+        </hu>		
     </description>
     <iconFilename>icon.dds</iconFilename>
     <multiplayer supported="true"/>
