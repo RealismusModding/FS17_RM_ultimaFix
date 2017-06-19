@@ -9,6 +9,7 @@
         <ru>UltimaFix для Seasons</ru>
         <hu>UltimaFix Seasons modhoz</hu>
         <de>UltimaFix für Seasons</de>
+        <nl>UltimaFix voor Seasons</nl>
     </title>
     <description>
         <en>
@@ -29,6 +30,9 @@
         <de>
             <![CDATA[Patch für die Krone Ultima von BM-Modding, um alle Ballenwickel-Features von Seasons zu nutzen.]]>
         </de>
+        <nl>
+            <![CDATA[Patch voor de Krone Ultima van BM-modding om te profiteren van alle Seasons baal inpak functies.]]>
+            
     </description>
     <iconFilename>icon.dds</iconFilename>
     <multiplayer supported="true"/>
