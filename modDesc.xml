@@ -7,7 +7,8 @@
         <pl>UltimaFix dla Seasons</pl>        
         <it>UltimaFix per Seasons</it>
         <ru>UltimaFix для Seasons</ru>
-        <hu>UltimaFix Seasons modhoz</hu>		
+        <hu>UltimaFix Seasons modhoz</hu>
+        <de>UltimaFix für Seasons</de>
     </title>
     <description>
         <en>
@@ -24,7 +25,10 @@
         </ru>
         <hu>
             <![CDATA[A BM-modding Krone Ultima bálázójához készült javítás, hogy a Seasons bálacsomagolási funkcióit továbbra is használhasd.]]>
-        </hu>		
+        </hu>
+        <de>
+            <![CDATA[Patch für die Krone Ultima von BM-Modding, um alle Ballenwickel-Features von Seasons zu nutzen.]]>
+        </de>
     </description>
     <iconFilename>icon.dds</iconFilename>
     <multiplayer supported="true"/>
