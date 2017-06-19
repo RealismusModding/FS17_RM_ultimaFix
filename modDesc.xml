@@ -4,7 +4,7 @@
     <version>1.0.0.0</version>
     <title>
         <en>UltimaFix for Seasons</en>
-        <pl>UltimaFix dla Seasons</pl>        
+        <pl>UltimaFix dla Seasons</pl>
         <it>UltimaFix per Seasons</it>
         <ru>UltimaFix для Seasons</ru>
         <hu>UltimaFix Seasons modhoz</hu>
@@ -32,7 +32,7 @@
         </de>
         <nl>
             <![CDATA[Patch voor de Krone Ultima van BM-modding om te profiteren van alle Seasons baal inpak functies.]]>
-            
+        </nl>
     </description>
     <iconFilename>icon.dds</iconFilename>
     <multiplayer supported="true"/>
