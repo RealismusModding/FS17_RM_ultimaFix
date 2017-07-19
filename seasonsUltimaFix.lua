@@ -8,24 +8,18 @@
 ----------------------------------------------------------------------------------------------------
 
 Mission00.loadMission00Finished = Utils.appendedFunction(Mission00.loadMission00Finished, function (...)
-local ultimaModNames, seasonsModNames = {"FS17_KroneUltimaCF155XC"}, {"FS17Contest_Seasons", "FS17_Seasons", "FS17_seasons", "FS17_RM_Seasons"}
-local envUltima, envSeasons = nil, nil
+local ultimaModName = "FS17_KroneUltimaCF155XC"
+local envUltima, ssBaleManager = nil, nil
 
-    for _, name in pairs(ultimaModNames) do
-        if g_modIsLoaded[name] then
-            envUltima = getfenv(0)[name]
-            break
-        end
+    if g_modIsLoaded[ultimaModName] then
+        envUltima = getfenv(0)[ultimaModName]
     end
 
-    for _, name in pairs(seasonsModNames) do
-        if g_modIsLoaded[name] then
-            envSeasons = getfenv(0)[name]
-            break
-        end
+    if g_seasons ~= nil then
+        ssBaleManager = g_seasons.baleManager
     end
-
-    if envUltima ~= nil and envSeasons ~= nil then
+    
+    if envUltima ~= nil and ssBaleManager ~= nil then
         -- Inject the code required for Seasons when Ultima.wrapperDropBale() is called
         envUltima.Ultima.wrapperDropBale = Utils.prependedFunction(envUltima.Ultima.wrapperDropBale, function (self)  
             local bale = self.wrapperCurrentBale.baleObject
@@ -44,7 +38,7 @@ local envUltima, envSeasons = nil, nil
 
                 -- call the necessary Seasons function to enable all mechanics for wrapped bales
                 -- self is assumed to be of class BaleWrapper (only needs self.lastDroppedBale and self.baleFillTypeSource)
-                envSeasons.ssBaleManager.baleWrapperDoStateChange(self, BaleWrapper.CHANGE_WRAPPER_BALE_DROPPED, nil)
+                ssBaleManager.baleWrapperDoStateChange(self, BaleWrapper.CHANGE_WRAPPER_BALE_DROPPED, nil)
             end
             
         end)
