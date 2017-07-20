@@ -10,6 +10,7 @@
         <hu>UltimaFix Seasons modhoz</hu>
         <de>UltimaFix für Seasons</de>
         <nl>UltimaFix voor Seasons</nl>
+        <fr>UltimaFix pour Seasons</fr>
     </title>
     <description>
         <en>
@@ -33,6 +34,9 @@
         <nl>
             <![CDATA[Patch voor de Krone Ultima van BM-modding om te profiteren van alle Seasons baal inpak functies.]]>
         </nl>
+        <fr>
+            <![CDATA[Patch pour la presse Krone Ultima de BM-modding, pour profiter de toutes les fonctionnalités d'emballage de balles de Seasons.]]>
+        </fr>
     </description>
     <iconFilename>icon.dds</iconFilename>
     <multiplayer supported="true"/>
