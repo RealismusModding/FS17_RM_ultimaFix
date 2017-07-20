@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="no" ?>
 <modDesc descVersion="37">
-    <author>baron</author>
+    <author>Realismus Modding</author>
+    <contributors>baron</contributors>
     <version>1.0.0.0</version>
     <title>
         <en>UltimaFix for Seasons</en>
